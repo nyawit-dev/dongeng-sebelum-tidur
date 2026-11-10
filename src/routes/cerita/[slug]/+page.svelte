@@ -1,11 +1,14 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import episodes from '$lib/data/episodes.json';
+  import books from '$lib/data/books.json';
 
   let { data } = $props();
   const ep = $derived(data.episode);
   const prev = $derived(data.prev);
   const next = $derived(data.next);
+
+  const currentBook = $derived(ep ? (books.find((b) => b.episodes.includes(ep.slug)) || null) : null);
 
   function seasonClass(season: number): string {
     if (season === 2) return 'bg-forest';
@@ -25,6 +28,9 @@
 
 <section class="mx-auto max-w-3xl px-5 pt-10">
   <a href="{base}/cerita/" class="font-display font-semibold underline decoration-crimson decoration-2">← Kembali ke rak cerita</a>
+  {#if currentBook}
+    <a href="{base}/cerita?buku={currentBook.no}" class="font-display font-semibold underline decoration-ink decoration-2">← Kembali ke buku {currentBook.no}: {currentBook.title}</a>
+  {/if}
 
   <article class="page-sheet mt-6 p-6 md:p-12 relative overflow-hidden">
     <!-- Library stamp -->

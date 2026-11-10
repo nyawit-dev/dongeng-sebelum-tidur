@@ -1,0 +1,42 @@
+[
+  {
+    "no": 1,
+    "rak": 1,
+    "rakTitle": "Pelayanan",
+    "title": "Pelayanan & Surat",
+    "subtitle": "Antrian, dokumen, ketetapan, dan tata cara pelayanan.",
+    "color": "brick",
+    "episodes": [
+      "ep01-antrian-ktp-serba-bisa",
+      "ep02-izin-usaha-17-meja",
+      "ep03-aturan-berubah-tiap-senin",
+      "ep04-fotokopi-syarat-bertambah"
+    ]
+  },
+  {
+    "no": 2,
+    "rak": 2,
+    "rakTitle": "Pembangunan",
+    "title": "Jalan, Harga & Proyek",
+    "subtitle": "Pekerjaan, tarif, alokasi, dan keputusan tata ruang.",
+    "color": "forest",
+    "episodes": [
+      "ep05-jalan-diperbaiki-tiap-tahun",
+      "ep06-harga-naik-gaji-diam",
+      "ep07-proyek-wisata-jalan-rusak"
+    ]
+  },
+  {
+    "no": 3,
+    "rak": 3,
+    "rakTitle": "Musyawarah",
+    "title": "Rapat, Bansos & Data",
+    "subtitle": "Keputusan rapat, bantuan, angka, dan suara warga.",
+    "color": "plum",
+    "episodes": [
+      "ep08-rapat-keputusan-sudah-jadi",
+      "ep09-bansos-salah-sasaran",
+      "ep10-statistik-selalu-naik"
+    ]
+  }
+]
