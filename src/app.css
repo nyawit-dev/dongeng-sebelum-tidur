@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f7f1e3;
+  --color-parchment: #efe6d0;
+  --color-ink: #1a1611;
+  --color-crimson: #b91c1c;
+  --color-sea: #0f766e;
+  --color-brick: #8f2a1c;
+  --color-forest: #1e4d2b;
+  --color-plum: #4a1d6b;
+  --color-wood: #6b4226;
+  --color-wooddark: #4a2c14;
+  --font-serif: "Lora", Georgia, "Times New Roman", serif;
+  --font-display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+}
+
+html { background-color: #f7f1e3; }
+body {
+  background-color: #f7f1e3;
+  color: #1a1611;
+  font-family: var(--font-serif);
+  line-height: 1.65;
+  background-image: radial-gradient(circle at 1px 1px, rgba(26,22,17,0.06) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+::selection { background: #b91c1c; color: #ffffff; }
+
+/* Wooden shelf plank — pure CSS */
+.shelf-plank {
+  height: 18px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #8a5a34 0%, #6b4226 45%, #4a2c14 100%);
+  box-shadow: 0 10px 18px rgba(26,22,17,0.35), inset 0 2px 0 rgba(247,241,227,0.25);
+}
+.library-hall {
+  background: linear-gradient(to bottom, #efe6d0, #f7f1e3 55%, #efe6d0);
+  border: 2px solid #1a1611;
+  box-shadow: 8px 8px 0 rgba(26,22,17,0.9);
+}
+
+/* Book spine on a shelf */
+.book-spine {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  border: 2px solid rgba(26,22,17,0.85);
+  box-shadow: inset 4px 0 0 rgba(255,255,255,0.18), inset -4px 0 0 rgba(0,0,0,0.22), 3px 0 0 rgba(26,22,17,0.25);
+  color: #ffffff;
+}
+.book-spine:hover { transform: translateY(-6px); }
+.book-spine { transition: transform 160ms ease; }
+
+/* Library stamp — like a date-due stamp */
+.stamp {
+  display: inline-block;
+  border: 3px double #b91c1c;
+  color: #b91c1c;
+  border-radius: 6px;
+  padding: 0.5rem 0.9rem;
+  transform: rotate(-4deg);
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  opacity: 0.9;
+}
+
+/* Shelf label plaque */
+.shelf-label {
+  font-family: var(--font-display);
+  background: #4a2c14;
+  color: #f7f1e3;
+  border: 2px solid #1a1611;
+  box-shadow: 4px 4px 0 rgba(26,22,17,0.85);
+}
+
+.catalog-card {
+  background: #ffffff;
+  border: 2px solid #1a1611;
+  box-shadow: 5px 5px 0 rgba(26,22,17,0.9);
+}
+
+.page-sheet {
+  background: #fffdf6;
+  border: 2px solid #1a1611;
+  box-shadow: 10px 10px 0 rgba(26,22,17,0.85);
+}
+
+.drop-cap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 3.4em;
+  line-height: 0.85;
+  float: left;
+  padding: 0.06em 0.12em 0 0;
+  color: #b91c1c;
+}
+
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 3px solid #0f766e;
+  outline-offset: 2px;
+}

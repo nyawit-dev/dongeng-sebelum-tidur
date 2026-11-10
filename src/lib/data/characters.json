@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Pak Wiryo",
+    "role": "Lurah fiktif Kota Senyum",
+    "description": "Pemimpin kelurahan yang ramah dan suka tersenyum, sering mengklaim pelayanan cepat meski antrean panjang. Ia berusaha mendengar warga meski kadang keputusan sudah terlanjur diambil. Satir diarahkan pada gaya birokrasi yang hangat tapi lamban, bukan pada orang nyata mana pun.",
+    "motto": "Warga rajin, kami pun harus rajin — meski kadang tertinggal.",
+    "episodes": ["ep01-antrian-ktp-serba-bisa", "ep02-izin-usaha-17-meja", "ep03-aturan-berubah-tiap-senin", "ep05-jalan-diperbaiki-tiap-tahun", "ep07-proyek-wisata-jalan-rusak", "ep08-rapat-keputusan-sudah-jadi", "ep10-statistik-selalu-naik"]
+  },
+  {
+    "name": "Bu Lastri",
+    "role": "Kepala pelayanan kelurahan fiktif",
+    "description": "Petugas pelayanan yang tertib, rapi, dan hafal semua aturan terbaru — termasuk aturan yang baru berubah Senin kemarin. Ia melayani dengan senyum resmi dan teh untuk warga yang menunggu lama. Karakternya menyindir sistem pelayanan yang kaku tapi manusiawi.",
+    "motto": "Lengkap dulu berkasnya, Mas. Senyumnya menyusul.",
+    "episodes": ["ep01-antrian-ktp-serba-bisa", "ep02-izin-usaha-17-meja", "ep03-aturan-berubah-tiap-senin", "ep04-fotokopi-syarat-bertambah", "ep06-harga-naik-gaji-diam", "ep08-rapat-keputusan-sudah-jadi", "ep09-bansos-salah-sasaran", "ep10-statistik-selalu-naik"]
+  },
+  {
+    "name": "Didik",
+    "role": "Warga pengurus dokumen",
+    "description": "Warga biasa yang rajin mengurus KTP, izin usaha, dan berkas sekolah anaknya. Ia membawa map plastik, buku catatan, dan kesabaran yang terus diuji antrean. Ia mewakili pengalaman warga dalam menghadapi birokrasi sehari-hari di kota fiktif ini.",
+    "motto": "Datang pagi, pulang sore — yang penting berkasnya jalan.",
+    "episodes": ["ep01-antrian-ktp-serba-bisa", "ep02-izin-usaha-17-meja", "ep03-aturan-berubah-tiap-senin", "ep04-fotokopi-syarat-bertambah", "ep05-jalan-diperbaiki-tiap-tahun", "ep06-harga-naik-gaji-diam", "ep09-bansos-salah-sasaran", "ep10-statistik-selalu-naik"]
+  },
+  {
+    "name": "Mbah Suro",
+    "role": "Juragan warung kopi, penutur kebenaran",
+    "description": "Pemilik warung kopi legendaris di Kota Senyum. Kopinya pahit, kata-katanya lebih pahit tapi jujur. Ia menjadi tempat warga berdiskusi tentang harga naik, jalan rusak, dan rapat yang keputusannya sudah jadi. Ia menyindir praktik sistem lewat humor warung kopi.",
+    "motto": "Kopi boleh pahit, tapi omongan jangan manis-manis saja.",
+    "episodes": ["ep01-antrian-ktp-serba-bisa", "ep02-izin-usaha-17-meja", "ep04-fotokopi-syarat-bertambah", "ep05-jalan-diperbaiki-tiap-tahun", "ep06-harga-naik-gaji-diam", "ep07-proyek-wisata-jalan-rusak", "ep09-bansos-salah-sasaran", "ep10-statistik-selalu-naik"]
+  },
+  {
+    "name": "Bu Rina",
+    "role": "Guru SD fiktif",
+    "description": "Guru sekolah dasar yang peduli pada murid dan orang tua. Ia rajin mencatat, bertanya di rapat, dan membawa brosur buatan muridnya. Ia mewakili suara warga yang cerdas dan kritis tapi tetap sopan dalam menyampaikan kritik terhadap kebijakan yang membingungkan.",
+    "motto": "Aturan boleh berubah tiap Senin, tapi niat baik jangan ikut berubah.",
+    "episodes": ["ep03-aturan-berubah-tiap-senin", "ep04-fotokopi-syarat-bertambah", "ep06-harga-naik-gaji-diam", "ep07-proyek-wisata-jalan-rusak", "ep08-rapat-keputusan-sudah-jadi", "ep09-bansos-salah-sasaran", "ep10-statistik-selalu-naik"]
+  },
+  {
+    "name": "Pak Jono",
+    "role": "Kontraktor jalan fiktif",
+    "description": "Kontraktor yang mengerjakan perbaikan jalan dan proyek wisata di Kota Senyum. Ia suka memotret pekerjaan dari jarak jauh dan berjanji memakai standar terbaik — sampai lubang langganan mengajarinya arti fondasi. Ia menyindir kualitas pembangunan yang tidak tahan lama.",
+    "motto": "Standar terbaik itu bukan di spanduk, tapi di fondasi.",
+    "episodes": ["ep05-jalan-diperbaiki-tiap-tahun", "ep07-proyek-wisata-jalan-rusak", "ep08-rapat-keputusan-sudah-jadi", "ep10-statistik-selalu-naik"]
+  }
+]
