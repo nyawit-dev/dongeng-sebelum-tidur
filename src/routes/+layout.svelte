@@ -5,10 +5,10 @@
 </script>
 
 <div class="flex min-h-screen flex-col">
-  <header class="border-b border-ink/10 px-6 py-4">
-    <div class="mx-auto flex max-w-2xl items-center justify-between text-sm">
+  <header class="border-b border-ink/10 px-6">
+    <div class="mx-auto flex max-w-2xl flex-wrap items-center justify-between gap-x-3 gap-y-2 text-sm">
       <a href="{base}/" class="font-display font-bold text-lg text-ink">Perpustakaan <span class="text-crimson">Dongeng Sebelum Tidur</span></a>
-      <nav class="flex gap-8 text-sm">
+      <nav class="flex flex-wrap gap-x-1.5 gap-y-1.5">
         <a href="{base}/" class="font-semibold text-ink/70 hover:text-ink">Beranda</a>
         <a href="{base}/cerita/" class="font-semibold text-ink/70 hover:text-ink">Cerita</a>
         <a href="{base}/tokoh/" class="font-semibold text-ink/70 hover:text-ink">Tokoh</a>

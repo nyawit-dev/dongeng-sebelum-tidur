@@ -198,10 +198,29 @@ img { max-width: 100%; }
 .focus\:border-crimson:focus { border-color: var(--color-crimson); }
 .focus\:outline-none:focus { outline: 2px solid transparent; outline-offset: 0; }
 
-/* ---------- footer ---------- */
-footer.site {
-  border-top: 1px solid var(--line); padding: 22px 0;
+/* ---------- mobile (phones) ---------- */
+@media (max-width: 640px) {
+  .spine { min-width: 60px; font-size: 20px; }
+  .book-body { padding: 18px 20px; }
+  .book-body .rak-line { gap: 8px; }
+  .rak-tag { font-size: 10px; letter-spacing: 0.08em; }
+  .rak-title { font-size: 12.5px; }
+  .book-title { font-size: 18px; }
+  .book-subtitle { font-size: 13px; margin-bottom: 12px; }
+  .chapter { flex-wrap: wrap; gap: 8px 10px; padding: 10px 12px; }
+  .chap-no { min-width: 34px; font-size: 10.5px; }
+  .chap-title { font-size: 13.5px; }
+  .chap-excerpt { font-size: 12px; flex-basis: 100%; max-width: 100%; }
+  .char-grid { grid-template-columns: 1fr; gap: 16px; }
+  .char-card { padding: 16px; }
+  .char-card h3 { font-size: 17px; }
+  .char-card p { font-size: 13px; }
+  .page-sheet { padding: 24px 20px; }
+  .stamp { font-size: 10px; padding: 5px 10px; top: 12px; right: 12px; }
 }
-footer.site .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.foot-note { font-size: 12.5px; color: var(--ink-soft); line-height: 1.5; }
-.foot-note a { color: var(--accent); }
+
+@media (max-width: 420px) {
+  .book-body { padding: 14px 16px; }
+  .spine { min-width: 52px; font-size: 18px; }
+}
+
